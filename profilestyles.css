@@ -6,45 +6,129 @@ body{
 header {
 	background-color: lightgrey;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 
 }
 .box {
 	width: 100px;
 	height: 100px;
 	transform: rotate(40deg);
-	border-style: solid;
+	border: 1px solid #666;
 	display: inline-block;
 
 }
 .box1{
 	background-color: lightblue;
-	text-align: center;
-	text-transform: 50deg;
+
 }
+
 .box2{
 	background-color: grey;
 }.box3{
 	background-color: lightblue;
-}.box4{
+}
+.box4{
+	
 	background-color: grey;
-}.box5{
+}
+
+.box5{
 	background-color: lightblue;
 }.box6{
 	background-color: grey;
 }.box7{
 	background-color: lightblue;
 }
+
+img {
+	width: 650px;
+	float: left;
+	margin-top: 15px;
+	border-radius: 10px;
+	padding-right: 20px;
+
+}
+h1 {
+	padding-top: 30px;
+}
 .bodyinfo{
 	height: 900px;
 
 }
 .right{ 
-float: right;
+padding-top: 50px;
+margin-left: 10px;
+border-width: 10px;
+font-family: arial;
+font-size: 15pt;
  }
 footer {
 	background-color: lightgrey;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
+	margin-top: 30px;
+
+}
+.info{
+	width: 100px;
+	height: 20px;
+}
+.fright{
+	float: right;
+	overflow: auto;
+}
+.twitter {
+	width: 60px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.twitter:hover{
+	width: 100px;
+}
+
+.git {
+	width: 50px;
+	padding-left: 20px;
+	padding-top: 20px;
+	transform: rotate(-40deg);
+	position: relative;
+}
+.git:hover {
+	width: 100px;
+	transform: scale(1.5);
+	transform: rotate(-40deg);
+}
+.linked {
+	width: 60px;
+	padding-left: 20px;
+	padding-top: 20px;
+	transform: rotate(-40deg);
+	position: relative;
+}
+.linked:hover {
+	width: 100px;
+	right: 0px;
+	padding-bottom: 30px;
 	
+
+}
+
+.facebk {
+	width: 50px;
+	padding-left: 20px;
+	padding-top: 20px;
+	transform: rotate(-40deg);
+}
+.facebk:hover {
+	width: 100px;
+}
+.insta {
+	width: 60px;
+	padding-left: 20px;
+	padding-top: 20px;
+	transform: rotate(-40deg);
+}
+.insta:hover {
+	width: 100px;
 }
