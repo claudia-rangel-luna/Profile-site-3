@@ -17,6 +17,7 @@ header {
 	border: 1px solid #666;
 	display: inline-block;
 
+
 }
 .box1{
 	background-color: lightblue;
@@ -25,7 +26,8 @@ header {
 
 .box2{
 	background-color: grey;
-}.box3{
+}
+.box3{
 	background-color: lightblue;
 }
 .box4{
@@ -47,6 +49,8 @@ img {
 	margin-top: 15px;
 	border-radius: 30px;
 	padding-right: 20px;
+	padding-left: 30px;
+
 
 }
 h1 {
@@ -67,19 +71,43 @@ h2{
 	font-family: arial;
 	font-size: 15pt;
 	}
+.mainblg{
+	display: inline-block;
+	
+	}
+.p1{
+	float: right;
+}	
+.wash{
+	float: left;
+
+}
 .blog{
 	background-color: lightblue;
-    color: grey;
     padding: 15px 32px;
     text-align: center;    
-    display: inline-block;
+    width: 300px;
     font-size: 30px;
-    margin: 10px 2px 0px 500px;
     border-radius: 50px;
 	font-weight: bolder;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+.imgblg{
+	width: 50px;
+	height: 40px;
+	margin-top: 1px;
+	padding-left: 50px;
 }
+a{
+	text-decoration: none;
 
-
+}
+a:visited{
+	color: blue;
+	font-weight: bolder;
+}
 footer {
 	background-color: lightgrey;
 	text-align: center;
@@ -87,7 +115,6 @@ footer {
 	margin-top: 30px;
 	position: relative;
 }
-
 
 .twitter {
 	width: 60px;
